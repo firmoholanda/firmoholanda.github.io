@@ -26,6 +26,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
+  text-shadow: 1px 1px 2px gray;
 }
 
 p {
@@ -127,6 +128,15 @@ a:hover, a:focus {
 
 /* BOOTSTRAP MODIFICATIONS */
 
+.navbar {
+  background: #ff6;
+  opacity: 0.95;
+
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+}
+
 .navbar-inverse {
   background: transparent;
   border-color: transparent;
@@ -154,14 +164,6 @@ a:hover, a:focus {
   color: #666;
 }
 
-/* SVG ANIMATION & CONFIGURATION */
-
-svg {
-  pointer-events: none;
-}
-
-/* Demo 1 */
-
 .avatar {
   width: 300px;
   height: 300px;
@@ -173,38 +175,21 @@ svg {
   margin-right: auto;
 }
 
-.show {
-  opacity: 1;
+.portfolio-img {
+  width: 400px;
+  height: 400px;
+  border-radius: 30%;
+  padding: 30px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50PX;
 }
 
-.hide {
-  opacity: 0;
-}
-
-.line-drawing, .illustration {
-  -webkit-transition: opacity 0.5s;
-  transition: opacity 0.5s;
-}
-
-.line-drawing path {
-  fill: none;
-  stroke: black;
-  stroke-width: 3;
-}
-
-path.line-round {
-  stroke-linecap: round;
-}
-
-path.stroke-medium {
-  stroke-width: 2;
-}
-
-path.stroke-thin {
-  stroke-width: 1;
-}
 
 #main {
+  background: #d3d3d3;
   background: #ff6;
   padding-top: 60px;
 }
@@ -323,6 +308,43 @@ path.stroke-thin {
   right: 0;
 }
 
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 400px;
+  position: relative;
+}
+
+.image {
+  display: block;
+  position: relative;
+  z-index: 2;
+  margin-top: 20PX;
+}
+
+.shadow {
+  bottom: -30px;
+  filter: blur(20px); /* this is the magic part */
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform: scale(0.95);
+  width: 100%;
+  z-index: 1;
+  margin-top: 20PX;
+}
+
+
 @media (max-width: 768px) {
   #f .subscribe-input {
     float: none;
@@ -350,7 +372,6 @@ path.stroke-thin {
   margin-bottom: 20px;
 }
 
-.contact-form {}
 
 .contact-form label {
   color: #999;
