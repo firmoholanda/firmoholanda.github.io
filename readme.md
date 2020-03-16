@@ -6,31 +6,24 @@ this is my personal portfolio
 
 ## 📡 technologies used
 
-- ruby
-- rails
 - bootstrap
 - jquery
-- faker
-- bcrypt
-- will_paginate
-- rubocop
 - webpacker
-- postgres
 - git
 
-ruby, rails, bootstrap, jquery, faker, bcrypt, will_paginate, rubocop, webpacker, postgres and git was used on this project.
+bootstrap, jquery, webpacker and git was used on this project.
 
 
 
 ## 🚀 the project
 
-this project can be found in https://github.com/firmoholanda/stay-in-touch
+this project can be found in https://github.com/firmoholanda/firmoholanda.github.io
 
 
-### ✨ [live version](https://stay-in-touch-firmoholanda.herokuapp.com/)
+### ✨ [live version](https://firmoholanda.github.io)
 
-<a href="https://stay-in-touch-firmoholanda.herokuapp.com/" target="_blank">
-    <img alt="app image" src="https://github.com/firmoholanda/stay-in-touch/blob/pre-production/app/assets/images/app-image.png"/>
+<a href="https://firmoholanda.github.io/" target="_blank">
+    <img alt="app image" src="https://github.com/firmoholanda/firmoholanda.github.io/blob/development/img/app-img.png"/>
 </a>
 
 
