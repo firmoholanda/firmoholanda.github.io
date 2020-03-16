@@ -1,20 +1,13 @@
-/**
-* Template Name: LinesLanding
-* Template URL: https://templatemag.com/lineslanding-bootstrap-landing-template/
-* Author: TemplateMag.com
-* License: https://templatemag.com/license/
-*/
-
-/*	################################################################
-	1. GENERAL STRUCTURES
-################################################################# */
-
-/* Import fonts */
-
+/* default */
+/* ----------------------------------------------------------------------------------- */
 * {
   margin: 0;
   padding: 0px;
   font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
@@ -38,47 +31,6 @@ p {
   line-height: 34px;
   color: #666;
   margin-top: 10px;
-}
-
-html, body {
-  height: 100%;
-}
-
-.alignleft {
-  float: left;
-}
-
-.alignright {
-  float: right;
-}
-
-.aligncenter {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  clear: both;
-}
-
-.centered {
-  text-align: center
-}
-
-.mt {
-  margin-top: 50px;
-}
-
-.mb {
-  margin-bottom: 50px;
-}
-
-.mtb {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.ptb {
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 
 .clear {
@@ -126,7 +78,8 @@ a:hover, a:focus {
   color: #696E74;
 }
 
-/* BOOTSTRAP MODIFICATIONS */
+/* navbar */
+/* ----------------------------------------------------------------------------------- */
 
 .navbar {
   background: #ff6;
@@ -137,20 +90,15 @@ a:hover, a:focus {
   box-shadow: 0 4px 6px -6px #222;
 }
 
-.navbar-inverse {
-  background: transparent;
-  border-color: transparent;
-}
-
-.navbar-inverse .navbar-nav>li>a {
+.navbar-nav>li>a {
   color: #d9dbda;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-nav>li>a:hover {
   color: #979797;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
   color: #979797;
   background-color: transparent;
 }
@@ -160,9 +108,13 @@ a:hover, a:focus {
   color: #2f2f2f;
 }
 
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+.navbar-brand:hover, .navbar-brand:focus {
   color: #666;
 }
+
+
+/* avatar */
+/* ----------------------------------------------------------------------------------- */
 
 .avatar {
   width: 300px;
@@ -188,6 +140,8 @@ a:hover, a:focus {
 }
 
 
+/* main */
+/* ----------------------------------------------------------------------------------- */
 #main {
   background: #d3d3d3;
   background: #ff6;
@@ -209,73 +163,41 @@ a:hover, a:focus {
 }
 
 
-/* White Section */
+/* project image shadow */
+/* ----------------------------------------------------------------------------------- */
 
-#ws {
-  color: #444;
+img {
+  height: auto;
+  max-width: 100%;
 }
 
-#ws h1 {
-  font-size: 3.7em;
-  font-weight: 300;
-  line-height: 1;
+.img-wrap {
+  margin: 0;
+  max-width: 400px;
+  position: relative;
 }
 
-#ws h2 {
-  font-size: 2.6em;
-  font-weight: 300;
-  line-height: 1.1;
-  color: #929292;
+.image {
+  display: block;
+  position: relative;
+  z-index: 2;
+  margin-top: 20PX;
 }
 
-.icn {
-  font-size: 60px;
-  float: left;
-  margin-right: 15px;
+.shadow {
+  bottom: -30px;
+  filter: blur(20px);     /* this is the magic part */
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform: scale(0.95);
+  width: 100%;
+  z-index: 1;
+  margin-top: 20PX;
 }
 
-.icn2 {
-  font-size: 60px;
-  margin-right: 15px;
-}
-
-#ws .price {
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  border: 3px solid #929292;
-  margin-bottom: 20px;
-}
-
-#ws .price h1 {
-  font-weight: 700;
-  font-size: 70px;
-}
-
-#ws .price h6 {
-  font-size: 16px;
-  font-weight: 300;
-}
-
-#ws .price p {
-  font-size: 22px;
-}
-
-#ws .price .btn-trans {
-  color: #444;
-  background-color: transparent;
-  border-color: #444;
-  border-width: 2px;
-  font-weight: 700;
-  font-size: 20px;
-}
-
-#ws .price .btn-trans:hover {
-  background: #ff6
-}
-
-/* Footer Section */
-
+/* footer */
+/* ----------------------------------------------------------------------------------- */
 #f {
   margin-top: 50px;
   padding-top: 80px;
@@ -308,61 +230,8 @@ a:hover, a:focus {
   right: 0;
 }
 
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-img {
-  height: auto;
-  max-width: 100%;
-}
-
-.wrap {
-  margin: 0 auto;
-  max-width: 400px;
-  position: relative;
-}
-
-.image {
-  display: block;
-  position: relative;
-  z-index: 2;
-  margin-top: 20PX;
-}
-
-.shadow {
-  bottom: -30px;
-  filter: blur(20px); /* this is the magic part */
-  height: 100%;
-  left: 0;
-  position: absolute;
-  transform: scale(0.95);
-  width: 100%;
-  z-index: 1;
-  margin-top: 20PX;
-}
-
-
-@media (max-width: 768px) {
-  #f .subscribe-input {
-    float: none;
-    width: 100%;
-    text-align: left;
-    margin-right: 0;
-  }
-}
-#f .btn-yellow {
-  color: #444;
-  background-color: #ff6;
-  border-color: #444;
-  border-width: 2px;
-  font-weight: 700;
-  font-size: 20px;
-}
-
-/* Contact Form */
+/* contact */
+/* ----------------------------------------------------------------------------------- */
 
 #contact {
   padding: 40px 0;
@@ -371,7 +240,6 @@ img {
 #contact h2 {
   margin-bottom: 20px;
 }
-
 
 .contact-form label {
   color: #999;
@@ -434,30 +302,6 @@ img {
   animation: animate-loading 1s linear infinite;
 }
 
-@-webkit-keyframes animate-loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
 .contact-form .error-message {
   display: none;
   color: #fff;
@@ -478,10 +322,12 @@ img {
   margin: 15px 0;
 }
 
-/* Copyrights */
+
+/* copyrights */
+/* ----------------------------------------------------------------------------------- */
 
 #copyrights {
-  background: #222222;
+  background:#3a3a3a;
   padding: 20px 0;
   text-align: center;
 }
