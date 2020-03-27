@@ -67,6 +67,7 @@ a {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  color: rgb(88, 92, 97);
   -webkit-transition: background-color .4s linear, color .4s linear;
   -moz-transition: background-color .4s linear, color .4s linear;
   -o-transition: background-color .4s linear, color .4s linear;
@@ -120,6 +121,7 @@ a:hover, a:focus {
 .avatar {
   width: 300px;
   height: 300px;
+  object-fit: cover;
   border-radius: 50%;
   padding: 30px;
   overflow: hidden;
@@ -328,7 +330,7 @@ img {
 
 #copyrights {
   background:#3a3a3a;
-  padding: 20px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
