@@ -84,7 +84,7 @@ a:hover, a:focus {
 /* ----------------------------------------------------------------------------------- */
 
 .navbar {
-  background: #ff6;
+  background: #e3e0cf;
   opacity: 0.95;
 
   -webkit-box-shadow: 0 4px 6px -6px #222;
@@ -133,8 +133,7 @@ a:hover, a:focus {
 /* main */
 /* ----------------------------------------------------------------------------------- */
 #main {
-  background: #d3d3d3;
-  background: #ff6;
+  background: #c5d5cb;
   padding-top: 60px;
 }
 
@@ -192,7 +191,7 @@ img {
   margin-top: 50px;
   padding-top: 56px;
   padding-bottom: 30px;
-  background: #3a3a3a;
+  background: #c5d5cb;
   color: #999;
 }
 
