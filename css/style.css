@@ -84,8 +84,8 @@ a:hover, a:focus {
 /* ----------------------------------------------------------------------------------- */
 
 .navbar {
-  background: #ff6;
-  opacity: 0.95;
+  background: black;
+  opacity: 0.77;
 
   -webkit-box-shadow: 0 4px 6px -6px #222;
   -moz-box-shadow: 0 4px 6px -6px #222;
@@ -133,8 +133,6 @@ a:hover, a:focus {
 /* main */
 /* ----------------------------------------------------------------------------------- */
 #main {
-  background: #d3d3d3;
-  background: #ff6;
   padding-top: 60px;
 }
 
@@ -191,9 +189,10 @@ img {
 #faq {
   margin-top: 50px;
   padding-top: 56px;
-  padding-bottom: 30px;
-  background: #3a3a3a;
+  padding-bottom: 30px;  
   color: #999;
+  background: black;
+  opacity: 0.77;
 }
 
 #faq input {
@@ -224,94 +223,12 @@ img {
 /* ----------------------------------------------------------------------------------- */
 
 #contact {
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 #contact h2 {
   margin-bottom: 20px;
 }
-
-.contact-form label {
-  color: #999;
-}
-
-.contact-form input, .contact-form textarea {
-  padding: 10px 12px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  height: auto;
-}
-
-.contact-form .form-send {
-  text-align: center;
-}
-
-.contact-form .form-send button {
-  background: #fff;
-  border: 0;
-  padding: 12px 30px;
-  color: #111;
-  transition: 0.4s;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 18px;
-  border: 2px solid #111;
-}
-
-.contact-form .form-send button:hover {
-  background: #ff6;
-}
-
-.contact-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact-form .loading {
-  display: none;
-  color: #555;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin: 15px 0;
-}
-
-.contact-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px 0;
-}
-
-.contact-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px 0;
-}
-
 
 /* social */
 /* ----------------------------------------------------------------------------------- */
@@ -329,9 +246,10 @@ img {
 /* ----------------------------------------------------------------------------------- */
 
 #copyrights {
-  background:#3a3a3a;
   padding: 30px 0;
   text-align: center;
+  background: black;
+  opacity: 0.77;
 }
 
 #copyrights p {
@@ -341,7 +259,7 @@ img {
 }
 
 #copyrights a {
-  color: #ff6;
+  color: #8367c7;
 }
 
 .credits {
