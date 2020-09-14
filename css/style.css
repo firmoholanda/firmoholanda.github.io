@@ -185,16 +185,16 @@ img {
   margin-top: 20PX;
 }
 
-/* faq */
+/* about */
 /* ----------------------------------------------------------------------------------- */
-#faq {
-  margin-top: 50px;
-  padding-top: 56px;
-  padding-bottom: 30px;  
+#about { 
   color: #999;
   background: black;
   opacity: 0.77;
 }
+
+/* faq */
+/* ----------------------------------------------------------------------------------- */
 
 #faq input {
   font-size: 18px;
