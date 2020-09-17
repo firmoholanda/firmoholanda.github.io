@@ -31,7 +31,7 @@ p {
   font-weight: 300;
   font-size: 25px;
   line-height: 34px;
-  color: #666;
+  color: #7D7D7D;
   margin-top: 10px;
 }
 
@@ -112,7 +112,7 @@ a:hover, a:focus {
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
-  color: #666;
+  color: #B0B0B0;
 }
 
 
@@ -189,8 +189,8 @@ img {
 /* ----------------------------------------------------------------------------------- */
 #about { 
   color: #999;
-  background: black;
-  opacity: 0.77;
+  background: #3b3b3b;
+  /*opacity: 1; */
 }
 
 /* faq */
