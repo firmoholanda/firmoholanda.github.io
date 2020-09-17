@@ -15,7 +15,7 @@ html, body {
 body {
   background: #fff;
   margin: 0;
-  color: #444;
+  color: #777;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,7 +31,6 @@ p {
   font-weight: 300;
   font-size: 25px;
   line-height: 34px;
-  color: #666;
   margin-top: 10px;
 }
 
@@ -94,25 +93,25 @@ a:hover, a:focus {
 }
 
 .navbar-nav>li>a {
-  color: #d9dbda;
+  color: #B0B0B0;
 }
 
 .navbar-nav>li>a:hover {
-  color: #979797;
+  color: #B0B0B0;
 }
 
 .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
-  color: #979797;
+  color: #B0B0B0;
   background-color: transparent;
 }
 
 .navbar-brand {
   font-weight: 900;
-  color: #2f2f2f;
+  color: #fff;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
-  color: #666;
+  color: #B0B0B0;
 }
 
 
@@ -188,7 +187,7 @@ img {
 /* about */
 /* ----------------------------------------------------------------------------------- */
 #about { 
-  color: #999;
+  color: #fff;
   background: black;
   opacity: 0.77;
 }
@@ -224,11 +223,11 @@ img {
 /* ----------------------------------------------------------------------------------- */
 
 .fab {
-  color: #3a3a3a;
+  color: #444;
 }
 
 .fab:hover {
-  color: #999;
+  color: #777;
 }
 
 
@@ -251,5 +250,5 @@ img {
 }
 
 .credits {
-  color: #999;
+  color: #fff;
 }
